@@ -16,6 +16,7 @@ class Numpad:
         self.size_border_button = 2
         self.button_font = ('Menlo', 25)
         self.color_button = '6C6C6C'
+        self.color_enter_button = '#d90429'
 
         #  Display Field Attributes
         self.display_font = ('Menlo', 25)
@@ -27,7 +28,7 @@ class Numpad:
 
         #  Theme Attributes
         self.theme = Themes()
-        self.gui.theme_add_new('Peter', self.theme._get_theme(selection='blue'))
+        self.gui.theme_add_new('Peter', self.theme._get_theme(selection='grey'))
         self.gui.theme('Peter')
 
         #  Icon
@@ -76,7 +77,7 @@ class Numpad:
                                 size=(self.size_button)),
                 self.gui.Button('.', font=(self.button_font),
                                 size=(self.size_button)),
-                self.gui.Button('->', font=(self.button_font), button_color=('#2A6A9B'),
+                self.gui.Button('->', font=(self.button_font), button_color=(self.color_enter_button),
                                 size=(self.size_button))
             ]
         ]
