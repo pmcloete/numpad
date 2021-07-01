@@ -16,7 +16,7 @@ class Themes():
                              'SLIDER_DEPTH': 0,
                              'PROGRESS_DEPTH': 0},
                            'blue':{'BACKGROUND': '#2b2d42',
-                             'TEXT': '#f1faee',
+                             'TEXT': '#edf2f4',
                              'INPUT': '#7E7E7E',
                              'TEXT_INPUT': '#edf2f4',
                              'SCROLL': '#c7e78b',
