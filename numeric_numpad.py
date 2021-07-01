@@ -27,7 +27,7 @@ class Numpad:
 
         #  Theme Attributes
         self.theme = Themes()
-        self.gui.theme_add_new('Peter', self.theme._get_theme())
+        self.gui.theme_add_new('Peter', self.theme._get_theme(selection='blue'))
         self.gui.theme('Peter')
 
         #  Icon
